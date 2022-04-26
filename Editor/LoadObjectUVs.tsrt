@@ -1,0 +1,6 @@
+void LoadObjectUVs()
+{
+    Uvs[#K#IDX#BASESET#OBJECTUV0] = FragData.vertex.xy;
+    Uvs[#K#IDX#BASESET#OBJECTUV1] = FragData.vertex.xz;
+    Uvs[#K#IDX#BASESET#OBJECTUV2] = FragData.vertex.zy;
+}
